@@ -1,20 +1,25 @@
 # Calculadora em Python
 
-Este é meu primeiro projeto de calculadora com interface gráfica, feito em Python usando Tkinter.
+Uma calculadora gráfica simples, feita com **Python** e **Tkinter**.
 
-Criei o projeto para praticar programação e aprender, aos poucos, como montar uma interface e fazer os botões responderem aos cliques.
+Este é um projeto de aprendizado que desenvolvi para praticar Python e dar meus primeiros passos na criação de interfaces gráficas. Fui construindo a calculadora aos poucos: comecei pelas operações no terminal e depois criei a janela, o visor e os botões.
 
-## O que ela faz
+## Funcionalidades
 
-- Soma, subtrai, multiplica e divide.
-- Tem um visor para acompanhar os cálculos.
-- O botão `C` limpa o visor.
-- O botão `⌫` apaga o último caractere.
-- Trata divisão por zero e expressões inválidas.
+- Adição, subtração, multiplicação e divisão.
+- Botão `C` para limpar o visor.
+- Botão `⌫` para apagar o último caractere.
+- Mensagem de erro para divisão por zero.
+- Mensagem para expressões inválidas.
+
+## Tecnologias utilizadas
+
+- Python 3
+- Tkinter
 
 ## Como executar
 
-Você precisa ter o Python 3 instalado. Baixe ou clone este repositório, abra um terminal na pasta do projeto e execute:
+1. Clone este repositório:
 
-```bash
-python calculadora_tk.py
+   ```bash
+   git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
